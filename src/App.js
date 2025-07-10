@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { ErrorBoundary } from './components/ErrorBoundary';
+import { RouterProvider, useRouter } from './components/Router';
+import { AuthProvider } from './contexts/AuthContext';
+import { Header } from './components/Header';
+import { HomePage, LoginPage, SignupPage, StreamPage, Profile, DevelopedBy } from './pages';
 
-function App() {
+const AppContent = () => {
+  const { currentRoute, routeParams } = useRouter();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-900">
+      <Header />
+      <main>
+        {currentRoute === '/' && <HomePage />}
+        {currentRoute === '/login' && <LoginPage />}
+        {currentRoute === '/signup' && <SignupPage />}
+        {currentRoute === '/stream/:streamId' && <StreamPage />}
+        {currentRoute === '/profile/:userId' && <Profile />}
+        {currentRoute === '/developed-by' && <DevelopedBy />}
+      </main>
     </div>
   );
-}
+};
+
+const App = () => {
+  return (
+    <ErrorBoundary>
+      <RouterProvider>
+        <AuthProvider>
+          <AppContent />
+        </AuthProvider>
+      </RouterProvider>
+    </ErrorBoundary>
+  );
+};
 
 export default App;
