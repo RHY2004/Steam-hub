@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# 🎥 Twitch Clone Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Developed by **Team 11**  
+An interactive live-streaming platform inspired by Twitch, offering real-time video streaming and chat, user management, and creator dashboards.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👥 Team Members
 
-### `npm start`
+**Team Leader:**  
+- Rajhans Yadav
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Team Members:**  
+- Rudram Pandey  
+- Vikas Kushwaha  
+- Pranjal Rastogi  
+- Suyash Pandey  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🔧 Project Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is a full-stack **Twitch Clone Web Application** developed using **React.js** and **Node.js**, designed to deliver a real-time, immersive streaming experience. Users can watch and interact with streamers through live chat, while streamers can manage their content, view analytics, and engage with their community.
 
-### `npm run build`
+### 👨‍💻 Streamers Can:
+- Broadcast video in real-time  
+- Set stream titles, thumbnails, and categories  
+- View stream analytics and chat activity  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 👀 Viewers Can:
+- Watch live streams  
+- Participate in real-time chat  
+- Follow streamers and get notified when they go live  
+- Discover trending streams and categories  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technologies Used
 
-### `npm run eject`
+- **Frontend**: React.js, Tailwind CSS, React Router  
+- **Authentication**: Firebase Authentication  
+- **Database**: Firebase Firestore / MongoDB  
+- **Live Streaming**: WebRTC / MUX Integration  
+- **Real-Time Chat**: Socket.IO  
+- **Backend**: Node.js, Express  
+- **Deployment**:  
+  - Frontend: Vercel / Netlify  
+  - Backend: Render / Heroku  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Key Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 🔐 User Authentication & Protected Routes  
+- 📊 Streamer Dashboard with Analytics  
+- 📺 Live Video Streaming via WebRTC/MUX  
+- 💬 Real-Time Chat with Moderation Support  
+- 🔍 Explore and Discover Streams  
+- ⭐ Follow System & Notifications  
+- 📱 Responsive UI for All Devices  
+- 🛡️ Role-Based Access Control  
+- 🔔 Push Notifications for Go-Live Alerts  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This Twitch Clone is a robust demonstration of modern web development capabilities, combining real-time communication, live streaming, user authentication, and a dynamic UI. Whether you're a viewer or a streamer, this platform aims to provide a seamless, engaging experience that mirrors the functionality of leading streaming services.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📣 Contributions
 
-### Making a Progressive Web App
+We welcome feedback and suggestions! Please feel free to raise issues or fork the repo and submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the MIT License. See `LICENSE` file for details.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
